@@ -1,7 +1,8 @@
 name: pull data
 
 on:
-- cron: '*/5 * * * *'
+  schedule:
+  - cron: '*/5 * * * *'
 
 jobs:
   get:
