@@ -3,6 +3,9 @@ name: pull data
 on:
   schedule:
   - cron: '*/10 * * * *'
+  
+  workflow_dispatch:
+
 
 jobs:
   get:
